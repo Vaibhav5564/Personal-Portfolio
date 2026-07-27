@@ -1,0 +1,157 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  padding: 100px 0;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+.hero-content h2 {
+  font-size: 2rem;
+  color: #0d6efd;
+  margin: 20px 0;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  color: #6c757d;
+  line-height: 1.8;
+}
+
+.hero-btns {
+  margin-top: 30px;
+}
+
+.hero-btns .btn {
+  margin-right: 15px;
+  padding: 12px 28px;
+  border-radius: 30px;
+}
+
+.hero-image {
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 10%;
+    border: 5px solid #565f6d;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image {
+    margin-left: 60px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius: 20%;
+    margin: auto;
+}
+
+.profile-image:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 35px rgba(13, 110, 253, 0.35);
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;   /* Move icons to the left */
+    align-items: flex-start;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+.social-item i {
+    font-size: 2rem;
+    margin-bottom: 6px;
+}
+
+.social-item span {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #6c757d;
+}
+
+.social-item:hover {
+    color: #0d6efd;
+    transform: translateY(-5px);
+}
+
+.social-item:hover span {
+    color: #0d6efd;
+}
+
+
+@media (max-width: 992px) {
+  .hero {
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero-image {
+    margin-top: 50px;
+  }
+
+  .hero-image img {
+    max-width: 320px;
+    margin: auto;
+
+  .social-icons{
+    justify-content: center;
+  }
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.4rem;
+  }
+
+  .hero-btns .btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .social-item:hover {
+    color: #0d6efd;
+    transform: translateY(-5px);
+}
+
+.social-item:hover span {
+    color: #0d6efd;
+}
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1000px) {
+    .social-icons {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,84 @@
+.resume {
+  padding: 100px 0;
+  background: #f8f9fa;
+}
+
+.resume-card {
+  max-width: 850px;
+  margin: auto;
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.resume-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+.resume-icon {
+  width: 90px;
+  height: 90px;
+  background: #0d6efd;
+  color: #ffffff;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 25px;
+}
+
+.resume-card h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 20px;
+}
+
+.resume-card p {
+  font-size: 1.05rem;
+  color: #6c757d;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+.resume-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.resume-buttons .btn {
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .resume {
+    padding: 70px 0;
+  }
+
+  .resume-card {
+    padding: 35px 25px;
+  }
+
+  .resume-card h2 {
+    font-size: 1.7rem;
+  }
+
+  .resume-icon {
+    width: 75px;
+    height: 75px;
+    font-size: 2rem;
+  }
+
+  .resume-buttons .btn {
+    width: 100%;
+  }
+}
