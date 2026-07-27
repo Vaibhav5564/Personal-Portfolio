@@ -28,8 +28,6 @@ const personalInfo = {
 
   leetcode: "https://leetcode.com/vaibhav5564",
 
-  resume: "/resume/Resume.pdf",
-
   profileImage: "/images/profile.png"
 };
 

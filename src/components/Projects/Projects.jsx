@@ -14,13 +14,13 @@ function Projects() {
         <div className="row g-4">
 
           {projects.map((project) => (
-            <div className="col-lg-4 col-md-6" key={project.id}>
+            <div className="col-lg-4 col-md-6 topMargin" key={project.id}>
               <div className="project-card">
 
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="project-image"
+                   className={`project-image ${project.id > 3 ? "image-top-space" : ""}`}
                 />
 
                 <div className="project-body">

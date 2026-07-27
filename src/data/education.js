@@ -4,7 +4,7 @@ const education = [
     institute: "Dr. D. Y. Patil Arts, Commerce & Science College, Akurdi",
     university: "Savitribai Phule Pune University",
     duration: "2024 - Present",
-    score: "CGPA: 9.3+",
+    score: "CGPA: 9.4+",
     description:
       "Currently pursuing a Bachelor's degree in Computer Science with a focus on programming, data structures, web development, databases, operating systems, and software engineering."
   },

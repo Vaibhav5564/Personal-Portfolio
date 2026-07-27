@@ -1,5 +1,5 @@
 import "./Resume.css";
-
+import resumePDF from "../../assets/resume/Resume.pdf";
 function Resume() {
   return (
     <section id="resume" className="resume">
@@ -23,7 +23,7 @@ function Resume() {
           <div className="resume-buttons">
 
             <a
-              href="/resume.pdf"
+              href={resumePDF}
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary"
@@ -33,7 +33,7 @@ function Resume() {
             </a>
 
             <a
-              href="/resume.pdf"
+              href={resumePDF}
               download
               className="btn btn-outline-primary"
             >

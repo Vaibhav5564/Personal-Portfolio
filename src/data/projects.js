@@ -33,21 +33,21 @@ const projects = [
     featured: true
   },
   {
-    id: 3,
-    title: "GitHub Profile Analyzer",
-    image: "/images/projects/github-profile-analyzer.png",
-    description:
-      "A web application that analyzes GitHub profiles using the GitHub API and displays repositories, followers, languages, and contribution statistics.",
-    technologies: [
-      "PHP",
-      "GitHub API",
-      "Bootstrap",
-      "JavaScript"
-    ],
-    github: "https://github.com/Vaibhav5564",
-    live: "",
-    featured: true
-  },
+  id: 3,
+  title: "News Monkey",
+  image: "/images/projects/news-monkey.png",
+  description:
+    "A React-based news application that fetches the latest headlines using the News API. Users can browse news by category, search for articles, and read real-time updates through a responsive and user-friendly interface.",
+  technologies: [
+    "React",
+    "Bootstrap",
+    "JavaScript",
+    "News API"
+  ],
+  github: "https://github.com/Vaibhav5564/React-Js/tree/main/NEWSAPP/news-app",
+  live: "",
+  featured: true
+},
   {
     id: 4,
     title: "Currency Converter",
@@ -60,7 +60,7 @@ const projects = [
       "JavaScript",
       "REST API"
     ],
-    github: "https://github.com/Vaibhav5564",
+    github: "https://github.com/Vaibhav5564/Projects-By-Using-HTML-CSS-and-JavaScript/tree/main/Currency%20Converter",
     live: "",
     featured: false
   },
@@ -76,23 +76,24 @@ const projects = [
       "JavaScript"
     ],
     github:
-      "https://github.com/Vaibhav5564/Basic-Projects-Using-HTML-CSS-and-JS",
+      "https://github.com/Vaibhav5564/Projects-By-Using-HTML-CSS-and-JavaScript/tree/main/ticTacToe",
     live: "",
     featured: false
   },
   {
     id: 6,
-    title: "Stone Paper Scissors",
-    image: "/images/projects/stone-paper-scissors.png",
+    title: "Text Utils",
+    image: "/images/projects/text-utils.png",
     description:
-      "A browser-based Stone Paper Scissors game with dynamic score updates and responsive UI.",
+      "A responsive React application that provides useful text manipulation features such as converting text to uppercase/lowercase, removing extra spaces, counting words and characters.",
     technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript"
+      "React",
+      "Bootstrap",
+      "JavaScript",
+      "CSS"
     ],
     github:
-      "https://github.com/Vaibhav5564/Basic-Projects-Using-HTML-CSS-and-JS",
+      "https://github.com/Vaibhav5564/React-Js/tree/main/my-app",
     live: "",
     featured: false
   }

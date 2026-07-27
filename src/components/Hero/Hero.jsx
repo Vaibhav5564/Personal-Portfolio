@@ -1,6 +1,6 @@
 import "./Hero.css";
 import personalInfo from "../../data/personalInfo";
-
+import resumePDF from "../../assets/resume/Resume.pdf";
 function Hero() {
   return (
     <section id="home" className="hero">
@@ -18,7 +18,7 @@ function Hero() {
 
             <div className="hero-buttons">
               <a
-                href={personalInfo.resume}
+                href={resumePDF}
                 className="btn btn-primary me-3"
                 download
               >

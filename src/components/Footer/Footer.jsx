@@ -33,6 +33,7 @@ function Footer() {
 
               <a
                 href={personalInfo.github}
+                className="me-3"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -41,6 +42,7 @@ function Footer() {
 
               <a
                 href={personalInfo.linkedin}
+                className="me-3"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -49,6 +51,7 @@ function Footer() {
 
               <a
                 href={personalInfo.hackerrank}
+                className="me-3"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -57,6 +60,7 @@ function Footer() {
 
               <a
                 href={personalInfo.codechef}
+                className="me-3"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -65,6 +69,7 @@ function Footer() {
 
               <a
                 href={personalInfo.leetcode}
+
                 target="_blank"
                 rel="noreferrer"
               >
