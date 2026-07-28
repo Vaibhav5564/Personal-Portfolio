@@ -25,26 +25,30 @@ function Certificates() {
 
                 <div className="certificate-content">
 
-                  <h3>{certificate.title}</h3>
+  <h3>{certificate.title}</h3>
 
-                  <h5>{certificate.issuer}</h5>
+  <h5>{certificate.issuer}</h5>
 
-                  <p>{certificate.description}</p>
+  <p>{certificate.description}</p>
 
-                  <small>Issued: {certificate.issueDate}</small>
+  <small className="issue-date">
+    Issued: {certificate.issueDate}
+  </small>
 
-                  <div className="mt-3">
-                    <a
-                      href={certificate.certificateUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="btn btn-primary"
-                    >
-                      View Certificate
-                    </a>
-                  </div>
+  <div className="certificate-buttons">
 
-                </div>
+    <a
+      href={certificate.certificateUrl}
+      target="_blank"
+      rel="noreferrer"
+      className="btn btn-primary"
+    >
+      View Certificate
+    </a>
+
+  </div>
+
+</div>
 
               </div>
             </div>

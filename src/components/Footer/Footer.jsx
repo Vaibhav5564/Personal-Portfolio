@@ -11,7 +11,7 @@ function Footer() {
           <div className="col-12 text-center mb-5">
             <div className="footer-logo">
               <h2>{personalInfo.name}</h2>
-              <p>{personalInfo.title}</p>
+              
               <p>{personalInfo.subtitle}</p>
             </div>
           </div>

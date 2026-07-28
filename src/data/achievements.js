@@ -2,38 +2,56 @@ const achievements = [
   {
     id: 1,
     year: "2026",
-    title: "Inter-College Coding Competition",
-    organization: "College Coding Events",
-    position: "Winner (6x)",
+    title: "🥇 Gold Medal",
+    organization: "Inter-College Coding Competition",
+    position: "Winner (2×)",
     description:
-      "Secured first place in an inter-college coding competition by solving algorithmic and programming challenges within the given time."
+      "Awarded two Gold Medals for securing first place in inter-college coding competitions by solving programming and algorithmic challenges within the allotted time."
   },
   {
     id: 2,
-    year: "2025",
-    title: "Academic Excellence",
-    organization: "B.Sc. Computer Science",
-    position: "CGPA 9.4+",
+    year: "2026",
+    title: "🥈 Silver Medal",
+    organization: "Inter-College Coding Competition",
+    position: "Runner-up (2×)",
     description:
-      "Maintained excellent academic performance while actively participating in coding competitions and software development projects."
+      "Received two Silver Medals for outstanding performance and consistently ranking among the top participants in competitive programming contests."
   },
   {
     id: 3,
-    year: "2025",
-    title: "Project Development",
-    organization: "Personal Projects",
-    position: "Completed",
+    year: "2026",
+    title: "🥉 Bronze Medal",
+    organization: "Inter-College Coding Competition",
+    position: "Bronze Medal (1×)",
     description:
-      "Developed multiple full-stack and frontend projects using React, Flask, PHP, JavaScript, Bootstrap, and MySQL."
+      "Earned a Bronze Medal by demonstrating strong coding, logical thinking, and problem-solving abilities during an inter-college competition."
   },
   {
     id: 4,
-    year: "2024",
-    title: "Started Competitive Programming",
-    organization: "Coding Platforms",
-    position: "Milestone",
+    year: "2026",
+    title: "🏅 Consolation Award",
+    organization: "Inter-College Coding Competition",
+    position: "Consolation Prize (1×)",
     description:
-      "Began solving programming problems regularly and participated in coding contests to strengthen problem-solving skills."
+      "Recognized with a Consolation Award for technical excellence and competitive performance in a challenging coding event."
+  },
+  {
+    id: 5,
+    year: "2026",
+    title: "🎓 Academic Topper",
+    organization: "B.Sc. Computer Science - Second Year",
+    position: "Department Topper",
+    description:
+      "Recognized as one of the academic toppers in the second year of B.Sc. Computer Science by maintaining excellent academic performance throughout the academic year."
+  },
+  {
+    id: 6,
+    year: "2026",
+    title: "💡 Technical Event Participant",
+    organization: "College Technical Events",
+    position: "Participant",
+    description:
+      "Actively participated in inter college competitions"
   }
 ];
 

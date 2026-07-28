@@ -81,8 +81,15 @@
 
   .project-image {
     height: 180px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
   }
 
+
+  .project-image:hover {
+    transform: scale(1.05);
+  }
+  
   .project-body {
     padding: 20px;
   }

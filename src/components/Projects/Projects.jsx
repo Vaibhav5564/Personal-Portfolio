@@ -17,11 +17,20 @@ function Projects() {
             <div className="col-lg-4 col-md-6 topMargin" key={project.id}>
               <div className="project-card">
 
-                <img
-                  src={project.image}
-                  alt={project.title}
-                   className={`project-image ${project.id > 3 ? "image-top-space" : ""}`}
-                />
+                {/* Clickable Project Image */}
+                <a
+                  href={project.live ? project.live : project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className={`project-image ${
+                      project.id > 3 ? "image-top-space" : ""
+                    }`}
+                  />
+                </a>
 
                 <div className="project-body">
 
@@ -41,7 +50,7 @@ function Projects() {
                       <a
                         href={project.live}
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                         className="btn btn-primary"
                       >
                         Live Demo
@@ -51,7 +60,7 @@ function Projects() {
                     <a
                       href={project.github}
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                       className="btn btn-outline-primary"
                     >
                       GitHub

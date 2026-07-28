@@ -96,3 +96,47 @@
     font-size: 1.3rem;
   }
 }
+
+.education-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.view-btn,
+.download-btn {
+    flex: 1;
+    text-align: center;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.view-btn {
+    background: white;
+    border: 2px solid #0d6efd;
+    color: #0d6efd;
+}
+
+.view-btn:hover {
+    background: #0d6efd;
+    color: white;
+}
+
+.download-btn {
+    background: #0d6efd;
+    border: 2px solid #0d6efd;
+    color: white;
+}
+
+.download-btn:hover {
+    background: #084298;
+}
+
+@media (max-width: 576px) {
+    .education-buttons {
+        flex-direction: column;
+    }
+}

@@ -4,7 +4,7 @@ const personalInfo = {
   title: "Computer Science Student",
 
   subtitle:
-    "Aspiring Software Developer | Full Stack Web Developer | Problem Solver",
+    "Turning Ideas into Interactive Web Applications",
 
   about:
     "I am a passionate Computer Science student with a strong interest in software development, web technologies, and problem solving. I enjoy building responsive, user-friendly applications while continuously learning new technologies and improving my development skills.",
