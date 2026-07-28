@@ -31,36 +31,7 @@ function Hero() {
               >
                 Contact Me
               </a>
-            </div>
-
-            <div className="social-icons mt-4">
-
-              <a href={personalInfo.github} target="_blank" rel="noreferrer" className="social-item">
-                <i className="bi bi-github"></i>
-                <span>GitHub</span>
-              </a>
-
-              <a href={personalInfo.linkedin} target="_blank" rel="noreferrer" className="social-item">
-                <i className="bi bi-linkedin"></i>
-                <span>LinkedIn</span>
-              </a>
-
-              <a href={personalInfo.hackerrank} target="_blank" rel="noreferrer" className="social-item">
-                <i className="bi bi-code-slash"></i>
-                <span>HackerRank</span>
-              </a>
-
-              <a href={personalInfo.codechef} target="_blank" rel="noreferrer" className="social-item">
-                <i className="bi bi-terminal-fill"></i>
-                <span>CodeChef</span>
-              </a>
-
-              <a href={personalInfo.leetcode} target="_blank" rel="noreferrer" className="social-item">
-                <i className="bi bi-laptop"></i>
-                <span>LeetCode</span>
-              </a>
-
-            </div>
+            </div>        
           </div>
 
           <div className="col-lg-6 text-center">

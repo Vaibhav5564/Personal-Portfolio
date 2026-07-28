@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-  padding: 100px 0;
+  padding: 10px 0;
 }
 
 .hero-content h1 {
@@ -14,7 +14,7 @@
 
 .hero-content h2 {
   font-size: 2rem;
-  color: #0d6efd;
+  color: #3566af;
   margin: 20px 0;
 }
 
@@ -46,7 +46,7 @@
 .profile-image {
     margin-left: 60px;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
-    border-radius: 20%;
+    border-radius: 10%;
     margin: auto;
 }
 

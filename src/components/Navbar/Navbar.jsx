@@ -1,5 +1,4 @@
 import "./Navbar.css";
-
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg">
@@ -61,18 +60,6 @@ function Navbar() {
 
             <li className="nav-item">
               <a className="nav-link" href="#contact">Contact</a>
-            </li>
-
-            <li className="nav-item ms-lg-3">
-              <a
-                href="/resume.pdf"
-                className="btn btn-primary resume-btn"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="bi bi-download me-2"></i>
-                Resume
-              </a>
             </li>
 
           </ul>

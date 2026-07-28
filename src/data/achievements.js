@@ -3,31 +3,22 @@ const achievements = [
     id: 1,
     year: "2026",
     title: "Inter-College Coding Competition",
-    organization: "College Coding Event",
-    position: "Winner",
+    organization: "College Coding Events",
+    position: "Winner (6x)",
     description:
       "Secured first place in an inter-college coding competition by solving algorithmic and programming challenges within the given time."
   },
   {
     id: 2,
-    year: "2026",
-    title: "Programming Competition",
-    organization: "Technical Fest",
-    position: "Finalist",
-    description:
-      "Qualified for the final round among participants from multiple colleges through problem-solving and coding skills."
-  },
-  {
-    id: 3,
     year: "2025",
     title: "Academic Excellence",
     organization: "B.Sc. Computer Science",
-    position: "CGPA 9.3+",
+    position: "CGPA 9.4+",
     description:
       "Maintained excellent academic performance while actively participating in coding competitions and software development projects."
   },
   {
-    id: 4,
+    id: 3,
     year: "2025",
     title: "Project Development",
     organization: "Personal Projects",
@@ -36,7 +27,7 @@ const achievements = [
       "Developed multiple full-stack and frontend projects using React, Flask, PHP, JavaScript, Bootstrap, and MySQL."
   },
   {
-    id: 5,
+    id: 4,
     year: "2024",
     title: "Started Competitive Programming",
     organization: "Coding Platforms",
