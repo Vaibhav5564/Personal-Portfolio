@@ -96,7 +96,7 @@
 
 .certificate-buttons .btn {
     flex: 1;
-    border-radius: 30px;
+    border-radius: 10px;
     font-weight: 600;
     padding: 10px 18px;
     transition: 0.3s ease;
