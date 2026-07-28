@@ -17,18 +17,17 @@ const projects = [
   },
   {
     id: 2,
-    title: "Portfolio Website",
-    image: "/images/projects/portfolio.png",
+    title: "Tic Tac Toe Game",
+    image: "/images/projects/tic-tac-toe.png",
     description:
-      "A modern, responsive portfolio website built with React and Bootstrap to showcase projects, achievements, certifications, coding profiles, and resume.",
+      "An interactive Tic Tac Toe game built using HTML, CSS, and JavaScript. It features two-player gameplay, winner detection, draw handling, restart functionality, and a clean responsive interface.",
     technologies: [
-      "React",
-      "Bootstrap",
+      "HTML",
       "CSS",
-      "Vite"
+      "JavaScript"
     ],
-    github: "https://github.com/Vaibhav5564",
-    live: "https://vaibhav5564.netlify.app",
+    github: "https://github.com/Vaibhav5564/Projects-By-Using-HTML-CSS-and-JavaScript/tree/main/ticTacToe",
+    live: "https://tictactoe5564.netlify.app/",
     featured: true
   },
   {
