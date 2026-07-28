@@ -9,8 +9,7 @@ const projects = [
       "Python",
       "Flask",
       "MySQL",
-      "Bootstrap",
-      "SQLAlchemy"
+      "Bootstrap"
     ],
     github: "https://github.com/Vaibhav5564/Personal-Finance-Manager",
     live: "https://personal-finance-manager-bvo3.onrender.com",
