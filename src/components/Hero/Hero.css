@@ -21,6 +21,10 @@
     margin-bottom: 15px;
 }
 
+.hero a {
+    display: inline-block;
+}
+
 .typing-text {
     font-size: 2rem;
     font-weight: 700;
