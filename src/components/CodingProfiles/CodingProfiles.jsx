@@ -3,7 +3,7 @@ import profiles from "../../data/profiles";
 
 function CodingProfiles() {
   return (
-    <section id="profiles" className="coding-profiles">
+    <section id="codingprofiles" className="coding-profiles">
       <div className="container">
 
         <div className="section-title">
