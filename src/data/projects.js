@@ -18,7 +18,7 @@ const projects = [
     github:
       "https://github.com/Vaibhav5564/Spotify-Clone",
     live:
-      "https://spotify-clone-30kcm36ih-vaibhav5564s-projects.vercel.app/login",
+      "https://spotify-clone-three-rust.vercel.app/login",
     featured: true
   },
 
