@@ -129,7 +129,7 @@ const projects = [
       "JavaScript"
     ],
     github:
-      "https://github.com/Vaibhav5564/Projects-By-Using-HTML-CSS-and-JavaScript",
+      "https://github.com/Vaibhav5564/Projects-By-Using-HTML-CSS-and-JavaScript/tree/main/stonePaperScissor",
     live:
       "https://projects-by-using-html-css-and-java.vercel.app/",
     featured: false

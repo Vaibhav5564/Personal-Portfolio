@@ -49,6 +49,12 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
+              <a className="nav-link" href="#professionalprofiles">
+                Professional Profiles
+              </a>
+            </li>
+
+            <li className="nav-item">
               <a className="nav-link" href="#codingprofiles">
                 Coding Profiles
               </a>

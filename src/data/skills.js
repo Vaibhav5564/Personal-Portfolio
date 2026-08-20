@@ -4,13 +4,14 @@ const skills = [
     icon: "bi bi-code-slash",
     skills: [
       "C",
+      "C++",
       "Java",
       "Python",
       "JavaScript",
-      "PHP",
-      "SQL"
+      "PHP"
     ]
   },
+
   {
     category: "Frontend",
     icon: "bi bi-window",
@@ -22,26 +23,39 @@ const skills = [
       "Responsive Design"
     ]
   },
+
   {
     category: "Backend",
     icon: "bi bi-server",
     skills: [
-      "PHP",
+      "Node.js",
+      "Express.js",
       "Flask",
       "REST API",
       "Authentication"
     ]
   },
+
   {
-    category: "Database & Tools",
+    category: "Database",
+    icon: "bi bi-database",
+    skills: [
+      "SQL",
+      "MySQL",
+      "SQLite"
+    ]
+  },
+
+  {
+    category: "Tools & Deployment",
     icon: "bi bi-tools",
     skills: [
-      "MySQL",
-      "SQLite",
       "Git",
       "GitHub",
       "VS Code",
-      "Vercel"
+      "Vercel",
+      "Netlify",
+      "Render"
     ]
   }
 ];

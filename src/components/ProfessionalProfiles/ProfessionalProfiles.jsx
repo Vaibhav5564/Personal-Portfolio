@@ -1,23 +1,28 @@
-import "./CodingProfiles.css";
+import "./ProfessionProfile.css";
 import profiles from "../../data/profiles";
 
-function CodingProfiles() {
+function ProfessionProfile() {
   return (
-    <section id="codingprofiles" className="coding-profiles py-5">
+    <section
+      id="professionalprofiles"
+      className="professional-profiles"
+    >
       <div className="container">
 
         <div className="section-title text-center mb-5">
-          <h2>Coding Profiles</h2>
-          <p className="text-muted">
-            My coding practice and competitive programming profiles
+          <h2>Professional Profiles</h2>
+          <p>
+            Connect with me and explore my professional presence
           </p>
         </div>
 
         <div className="row g-4">
 
-          {profiles.coding.map((profile) => (
-            <div className="col-lg-3 col-md-6" key={profile.id}>
-
+          {profiles.professional.map((profile) => (
+            <div
+              className="col-lg-3 col-md-6"
+              key={profile.id}
+            >
               <div className="profile-card h-100">
 
                 <div className="profile-icon">
@@ -40,7 +45,6 @@ function CodingProfiles() {
                 </a>
 
               </div>
-
             </div>
           ))}
 
@@ -51,4 +55,4 @@ function CodingProfiles() {
   );
 }
 
-export default CodingProfiles;
+export default ProfessionProfile;
