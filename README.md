@@ -1,16 +1,220 @@
-# React + Vite
+# 🚀 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and professional personal portfolio website built with **React.js, Vite, Bootstrap, and CSS** to showcase my skills, projects, achievements, education, certifications, coding profiles, and professional profiles.
 
-Currently, two official plugins are available:
+The portfolio is designed to provide recruiters and developers with a quick overview of my technical journey, projects, and accomplishments.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Portfolio:**  
+https://vaibhav5564.netlify.app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 About the Project
+
+This portfolio website was developed to create a professional online presence and showcase my journey as an aspiring full-stack developer.
+
+The website contains dedicated sections for:
+
+- 👨‍💻 About Me
+- 🛠️ Technical Skills
+- 🎓 Education
+- 🚀 Projects
+- 🏆 Achievements
+- 📜 Certificates
+- 💻 Coding Profiles
+- 💼 Professional Profiles
+- 📞 Contact Information
+
+The project follows a component-based React architecture, making the codebase organized, reusable, and easy to maintain.
+
+---
+
+## ✨ Features
+
+### 🏠 Home Section
+
+- Professional introduction
+- Profile image
+- "Open to Opportunities" status
+- Aspiring Full Stack Developer designation
+- Resume download
+- Contact button
+
+### 👨‍💻 About Section
+
+Provides an overview of my:
+
+- Background
+- Technical interests
+- Career goals
+- Development journey
+
+### 🛠️ Skills Section
+
+Skills are organized into different categories:
+
+- Programming Languages
+- Frontend Technologies
+- Backend Technologies
+- Databases
+- Tools & Deployment
+
+### 🎓 Education Section
+
+Displays my academic journey including:
+
+- Bachelor's Degree
+- HSC
+- SSC
+- Academic scores
+- University and institute details
+- Result viewing and downloading options
+
+### 🚀 Projects Section
+
+Showcases my development projects with:
+
+- Project screenshots
+- Project descriptions
+- Technologies used
+- GitHub repository links
+- Live demo links
+
+### 🏆 Achievements Section
+
+Highlights:
+
+- Coding competition achievements
+- Gold, Silver and Bronze medals
+- Academic achievements
+- Technical competitions
+- Project and typing competition participation
+
+### 📜 Certificates Section
+
+Displays completed certifications with:
+
+- Certificate image
+- Issuing organization
+- Description
+- Issue date
+- Certificate verification/view link
+
+### 💻 Coding Profiles
+
+Links to my programming profiles:
+
+- HackerRank
+- CodeChef
+- LeetCode
+- GeeksforGeeks
+
+### 💼 Professional Profiles
+
+Links to my professional platforms:
+
+- GitHub
+- LinkedIn
+- Naukri
+- Indeed
+- Internshala
+
+### 📞 Contact Section
+
+Provides ways to connect with me for:
+
+- Job opportunities
+- Internships
+- Collaboration
+- Professional networking
+
+---
+
+## 🧑‍💻 Technologies Used
+
+### Frontend
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Bootstrap
+
+### Build Tool
+
+- Vite
+
+### Libraries
+
+- React Bootstrap
+- React Type Animation
+- Bootstrap Icons
+
+### Development Tools
+
+- Visual Studio Code
+- Git
+- GitHub
+- npm
+
+### Deployment
+
+- Netlify
+- Vercel
+
+---
+
+## 📂 Project Structure
+
+```text
+Personal-Portfolio/
+│
+├── public/
+│   └── images/
+│
+├── src/
+│   │
+│   ├── assets/
+│   │   └── resume/
+│   │
+│   ├── components/
+│   │   │
+│   │   ├── About/
+│   │   ├── Achievements/
+│   │   ├── Certificates/
+│   │   ├── CodingProfiles/
+│   │   ├── Common/
+│   │   ├── Contact/
+│   │   ├── Education/
+│   │   ├── Footer/
+│   │   ├── Hero/
+│   │   ├── Navbar/
+│   │   ├── ProfessionalProfiles/
+│   │   ├── Projects/
+│   │   └── Skills/
+│   │
+│   ├── data/
+│   │   ├── achievements.js
+│   │   ├── certificates.js
+│   │   ├── education.js
+│   │   ├── personalInfo.js
+│   │   ├── profiles.js
+│   │   ├── projects.js
+│   │   └── skills.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
