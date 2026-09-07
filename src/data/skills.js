@@ -19,6 +19,7 @@ const skills = [
       "HTML5",
       "CSS3",
       "Bootstrap",
+      "jQuery",
       "React.js",
       "Responsive Design"
     ]
