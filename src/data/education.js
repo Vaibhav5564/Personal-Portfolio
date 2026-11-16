@@ -6,7 +6,7 @@ import secondYear from "../assets/marksheets/SY_BSc.pdf";
 const education = [
   {
     degree: "Bachelor of Science in Computer Science (Second Year)",
-    institute: "Dr. D. Y. Patil Arts, Commerce & Science College, Akurdi",
+    institute: "Dr. D. Y. Patil Arts, Commerce & Science College, Pimpri",
     university: "Savitribai Phule Pune University",
     duration: "2025 - 2026",
     score: "SGPA: 9.59",
@@ -16,7 +16,7 @@ const education = [
   },
   {
     degree: "Bachelor of Science in Computer Science (First Year)",
-    institute: "Dr. D. Y. Patil Arts, Commerce & Science College, Akurdi",
+    institute: "Dr. D. Y. Patil Arts, Commerce & Science College, Pimpri",
     university: "Savitribai Phule Pune University",
     duration: "2024 - 2025",
     score: "SGPA: 9.32",
